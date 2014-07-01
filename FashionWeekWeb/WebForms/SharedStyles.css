@@ -1,0 +1,62 @@
+﻿body 
+{
+    font-family: Arial;
+    color: black;
+    font-size: 12pt;
+}
+
+.Background
+{
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+  z-index: -10;
+}
+
+.Background img
+{
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+}
+
+@font-face 
+{
+    font-family: "Gist Rough Web";
+    src: url(../Resources/GistRoughUprExboldTwoDemo.otf) format("opentype");
+}
+
+@font-face
+{
+    font-family: "Coco Web";
+    src: url(../Resources/Coco-Bold.otf) format("opentype"),
+         url(../Resources/Coco-BoldCondensed.otf) format("opentype"),
+         url(../Resources/Coco-BoldCondensedItalic.otf) format("opentype"),
+         url(../Resources/Coco-BoldItalic.otf) format("opentype"),
+         url(../Resources/Coco-Condensed.otf) format("opentype"),
+         url(../Resources/Coco-CondensedItalic.otf) format("opentype"),
+         url(../Resources/Coco-Italic.otf) format("opentype"),
+         url(../Resources/Coco-Regular.otf) format("opentype");
+}
+
+.Button
+{
+    width: 200px;
+    height: 50px;
+    background-color: black;
+    color: orange;
+    font-family: Gist Rough Web;
+    font-size: 16pt;
+}
+
+.Button:hover
+{
+    background-color: #808080;
+}

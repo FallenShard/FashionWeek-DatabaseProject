@@ -1,0 +1,142 @@
+﻿.SmallFormDiv
+{
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    overflow: auto;
+    width: 500px;
+    height: 600px;
+    background: rgba(0, 0, 0, 0.1);
+    border-width: 5px;	
+    border-style: ridge;
+}
+
+.RightSide
+{
+    position: absolute;
+    left: 260px;
+}
+
+.LeftSide
+{
+    position: absolute;
+    right: 260px;
+    margin-top: 5px;
+}
+
+#labelPageTitle
+{
+    position: absolute;
+    top: 50px;
+    left: 120px;
+    color: black;
+    font-family: Gist Rough Web;
+    font-size: 24pt;
+}
+
+#labelRegNum
+{
+    top: 30px;
+}
+#textBoxRegNum
+{
+    top: 30px;
+}
+
+#labelName
+{
+    top: 60px;
+}
+#textBoxName
+{
+    top: 60px;
+}
+
+#labelDate
+{
+    top: 90px;
+}
+#datePicker
+{
+    top: 90px;
+}
+
+#labelHQ
+{
+    top: 120px;
+}
+#textBoxHQ
+{
+    top: 120px;
+}
+
+#labelModels
+{
+    top: 185px;
+}
+#boxModels
+{
+    top: 215px;
+    background: rgba(255,255,255,0.5);
+}
+
+
+#checkBoxInt
+{
+    position: absolute;
+    top: 155px;
+    left: 80px;
+}
+#labelInt
+{
+    top: 150px;
+}
+
+#labelCountries
+{
+    top: 180px;
+    right: 350px;
+}
+#textBoxCountries
+{
+    top: 210px;
+
+}
+#buttonAdd
+{
+    position: absolute;
+    top: 240px;
+    width: 70px;
+    right: 340px;
+}
+#buttonRemove
+{
+    top: 240px;
+    width: 70px;
+}
+#boxCountries
+{
+    top: 270px;
+    background: rgba(255,255,255,0.5);
+}
+
+#buttonOK
+{
+    position: absolute;
+    left: 140px;
+    top: 730px;
+}
+
+#buttonCancel
+{
+    position: absolute;
+    left: 360px;
+    top: 730px;
+}
+
+#labelError
+{
+    position:absolute;
+    left: 620px;
+    top: 100px;
+}

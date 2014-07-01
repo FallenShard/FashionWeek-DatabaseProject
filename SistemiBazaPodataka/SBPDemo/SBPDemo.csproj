@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{02F22522-5FDF-4762-BE1A-769EF63303BE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SBPDemo</RootNamespace>
+    <AssemblyName>SBPDemo</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DataAccessLayer, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DataAccessLayer.dll</HintPath>
+    </Reference>
+    <Reference Include="FluentNHibernate">
+      <HintPath>..\packages\FluentNHibernate.1.4.0.0\lib\net35\FluentNHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="Iesi.Collections">
+      <HintPath>..\packages\Iesi.Collections.3.2.0.4000\lib\Net35\Iesi.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate">
+      <HintPath>..\packages\NHibernate.3.3.1.4000\lib\Net35\NHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Forms\Agencies\AgenciesAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Agencies\AgenciesAddForm.Designer.cs">
+      <DependentUpon>AgenciesAddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Agencies\AgenciesDetailsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Agencies\AgenciesDetailsForm.Designer.cs">
+      <DependentUpon>AgenciesDetailsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Agencies\AgenciesEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Agencies\AgenciesEditForm.Designer.cs">
+      <DependentUpon>AgenciesEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Agencies\AgenciesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Agencies\AgenciesForm.Designer.cs">
+      <DependentUpon>AgenciesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Designers\DesignersAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Designers\DesignersAddForm.Designer.cs">
+      <DependentUpon>DesignersAddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Designers\DesignersDetailsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Designers\DesignersDetailsForm.Designer.cs">
+      <DependentUpon>DesignersDetailsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Designers\DesignersEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Designers\DesignersEditForm.Designer.cs">
+      <DependentUpon>DesignersEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Designers\DesignersForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Designers\DesignersForm.Designer.cs">
+      <DependentUpon>DesignersForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\OverviewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\OverviewForm.Designer.cs">
+      <DependentUpon>OverviewForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Models\ModelsAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Models\ModelsAddForm.Designer.cs">
+      <DependentUpon>ModelsAddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Models\ModelsDetailsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Models\ModelsDetailsForm.Designer.cs">
+      <DependentUpon>ModelsDetailsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Models\ModelsEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Models\ModelsEditForm.Designer.cs">
+      <DependentUpon>ModelsEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Models\ModelsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Models\ModelsForm.Designer.cs">
+      <DependentUpon>ModelsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SelectorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SelectorForm.Designer.cs">
+      <DependentUpon>SelectorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Forms\Shows\ShowsAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Shows\ShowsAddForm.Designer.cs">
+      <DependentUpon>ShowsAddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Shows\ShowsDetailsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Shows\ShowsDetailsForm.Designer.cs">
+      <DependentUpon>ShowsDetailsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Shows\ShowsEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Shows\ShowsEditForm.Designer.cs">
+      <DependentUpon>ShowsEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Shows\ShowsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Shows\ShowsForm.Designer.cs">
+      <DependentUpon>ShowsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SpecialGuestsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SpecialGuestsForm.Designer.cs">
+      <DependentUpon>SpecialGuestsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SplashScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SplashScreen.Designer.cs">
+      <DependentUpon>SplashScreen.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Forms\Agencies\AgenciesAddForm.resx">
+      <DependentUpon>AgenciesAddForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Agencies\AgenciesDetailsForm.resx">
+      <DependentUpon>AgenciesDetailsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Agencies\AgenciesEditForm.resx">
+      <DependentUpon>AgenciesEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Agencies\AgenciesForm.resx">
+      <DependentUpon>AgenciesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Designers\DesignersAddForm.resx">
+      <DependentUpon>DesignersAddForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Designers\DesignersDetailsForm.resx">
+      <DependentUpon>DesignersDetailsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Designers\DesignersEditForm.resx">
+      <DependentUpon>DesignersEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Designers\DesignersForm.resx">
+      <DependentUpon>DesignersForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\OverviewForm.resx">
+      <DependentUpon>OverviewForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Models\ModelsAddForm.resx">
+      <DependentUpon>ModelsAddForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Models\ModelsDetailsForm.resx">
+      <DependentUpon>ModelsDetailsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Models\ModelsEditForm.resx">
+      <DependentUpon>ModelsEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Models\ModelsForm.resx">
+      <DependentUpon>ModelsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Forms\SelectorForm.resx">
+      <DependentUpon>SelectorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Shows\ShowsAddForm.resx">
+      <DependentUpon>ShowsAddForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Shows\ShowsDetailsForm.resx">
+      <DependentUpon>ShowsDetailsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Shows\ShowsEditForm.resx">
+      <DependentUpon>ShowsEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Shows\ShowsForm.resx">
+      <DependentUpon>ShowsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SpecialGuestsForm.resx">
+      <DependentUpon>SpecialGuestsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SplashScreen.resx">
+      <DependentUpon>SplashScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\selector_background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fashion_week.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fashion_week_logo_new.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo_big.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

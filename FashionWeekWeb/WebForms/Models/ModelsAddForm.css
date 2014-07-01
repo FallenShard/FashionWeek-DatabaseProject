@@ -1,0 +1,234 @@
+﻿.SmallFormDiv
+{
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    overflow: auto;
+    width: 500px;
+    height: 600px;
+    background: rgba(0, 0, 0, 0.1);
+    border-width: 5px;	
+    border-style: ridge;
+}
+
+.RightSide
+{
+    position: absolute;
+    left: 260px;
+}
+
+.LeftSide
+{
+    position: absolute;
+    right: 260px;
+}
+
+#labelPageTitle
+{
+    position: absolute;
+    top: 50px;
+    left: 120px;
+    color: black;
+    font-family: Gist Rough Web;
+    font-size: 24pt;
+}
+
+
+#labelPN
+{
+    top: 30px;
+}
+#textBoxPN
+{
+    top: 30px;
+}
+
+#labelFirstName
+{
+    top: 60px;
+}
+#textBoxFirstName
+{
+    top: 60px;
+}
+
+#labelLastName
+{
+    top: 90px;
+}
+#textBoxLastName
+{
+    top: 90px;
+}
+
+#labelAgency
+{
+    top: 120px;
+}
+#dropDownListAgency
+{
+    top: 120px;
+}
+
+#labelDate
+{
+    top: 150px;
+}
+#datePicker
+{
+    top: 150px;
+}
+
+#labelGender
+{
+    top: 180px;
+}
+#radioButtonMale
+{
+    position: absolute;
+    top: 180px;
+}
+#labelRBM
+{
+    position: absolute;
+    top: 180px;
+    left: 280px;
+}
+
+#radioButtonFemale
+{
+    position: absolute;
+    top: 180px;
+    left: 60px;
+}
+#labelRBF
+{
+    position: absolute;
+    top: 180px;
+    left: 340px;
+}
+
+#labelEyes
+{
+    top: 210px;
+}
+#dropDownListEyes
+{
+    top: 210px;
+}
+
+#labelHair
+{
+    top: 240px;
+}
+#dropDownListHair
+{
+    top: 240px;
+}
+
+
+#labelWeight
+{
+    top: 270px;
+}
+#textBoxWeight
+{
+    top: 270px;
+}
+#labelHeight
+{
+    top: 300px;
+}
+#textBoxHeight
+{
+    top: 300px;
+}
+#labelCSize
+{
+    top: 330px;
+}
+#textBoxCSize
+{
+    top: 330px;
+}
+
+#checkBoxSG
+{
+    position: absolute;
+    top: 360px;
+    left: 260px;
+}
+#labelSG
+{
+    position: absolute;
+    top: 360px;
+    left: 280px;
+}
+
+#labelOccupation
+{
+    top: 390px;
+}
+#textBoxOccupation
+{
+    top: 390px;
+}
+
+#labelFashionShows
+{
+    top: 420px;
+}
+#boxShows
+{
+    top: 450px;
+    background: rgba(255,255,255,0.5);
+}
+
+#labelMagazines
+{
+    top: 420px;
+}
+#textBoxMagazines
+{
+    top: 450px;
+
+}
+#buttonAdd
+{
+    position:absolute;
+    top: 480px;
+    width: 70px;
+    right: 340px;
+}
+#buttonRemove
+{
+    top: 480px;
+    width: 70px;
+}
+#boxMagazines
+{
+    top: 510px;
+    height: 200px;
+    background: rgba(255,255,255,0.5);
+}
+
+#buttonOK
+{
+    position: absolute;
+    left: 140px;
+    top: 730px;
+}
+
+#buttonCancel
+{
+    position: absolute;
+    left: 360px;
+    top: 730px;
+}
+
+#labelError
+{
+    position: absolute;
+    left: 620px;
+    top: 100px;
+}

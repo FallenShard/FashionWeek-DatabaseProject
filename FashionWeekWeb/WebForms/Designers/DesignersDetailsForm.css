@@ -1,0 +1,115 @@
+﻿.SmallFormDiv
+{
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    overflow: auto;
+    width: 500px;
+    height: 600px;
+    background: rgba(0, 0, 0, 0.1);
+    border-width: 2px;	
+    border-style: solid;
+    border-color: orange;
+}
+
+.RightSide
+{
+    position: absolute;
+    left: 260px;
+    color: white;
+}
+
+.LeftSide
+{
+    position: absolute;
+    right: 260px;
+}
+
+#labelPageTitle
+{
+    position: absolute;
+    top: 50px;
+    left: 120px;
+    color: black;
+    font-family: Gist Rough Web;
+    font-size: 24pt;
+}
+
+#labelPN
+{
+    top: 30px;
+}
+#labelPNVal
+{
+    top: 30px;
+}
+
+#labelFirstName
+{
+    top: 60px;
+}
+#labelFirstNameVal
+{
+    top: 60px;
+}
+
+#labelLastName
+{
+    top: 90px;
+}
+#labelLastNameVal
+{
+    top: 90px;
+}
+
+#labelDate
+{
+    top: 120px;
+}
+#labelDateVal
+{
+    top: 120px;
+}
+
+#labelGender
+{
+    top: 150px;
+}
+#labelGenderVal
+{
+    top: 150px;
+}
+
+#labelCountry
+{
+    top: 180px;
+}
+#labelCountryVal
+{
+    top: 180px;
+}
+
+#labelFHouse
+{
+    top: 210px;
+}
+#labelFHouseVal
+{
+    top: 210px;
+}
+
+#labelFashionShows
+{
+    top: 240px;
+}
+#boxShows
+{
+    top: 240px;
+}
+
+#buttonBack
+{
+    position: absolute;
+    left: 360px;
+    top: 730px;
+}

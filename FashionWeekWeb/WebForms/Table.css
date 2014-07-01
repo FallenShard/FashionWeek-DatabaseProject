@@ -1,0 +1,33 @@
+﻿Table
+{
+    border: 5px ridge #8B8378;
+    white-space: nowrap;
+    border-collapse: collapse;
+}
+
+td, th
+{
+    font-size: 1em;
+    border: 1px solid #ffa25f;
+    padding: 3px 7px 2px 7px;
+}
+
+th
+{
+    font-size: 1.1em;
+    background-color: black;
+    color: orange;
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 4px;
+}
+
+tr.RowOne
+{
+    background-color: #FFEFD5;
+}
+
+tr.RowTwo
+{
+    background-color: #FFE5B4;
+}

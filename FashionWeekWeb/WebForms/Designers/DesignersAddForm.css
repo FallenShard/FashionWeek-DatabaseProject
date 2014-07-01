@@ -1,0 +1,159 @@
+﻿.SmallFormDiv
+{
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    overflow: auto;
+    width: 500px;
+    height: 600px;
+    background: rgba(0, 0, 0, 0.1);
+    border-width: 5px;	
+    border-style: ridge;
+}
+
+.RightSide
+{
+    position: absolute;
+    left: 260px;
+}
+
+.LeftSide
+{
+    position: absolute;
+    right: 260px;
+    margin-top: 5px;
+}
+
+#labelPageTitle
+{
+    position: absolute;
+    top: 50px;
+    left: 120px;
+    color: black;
+    font-family: Gist Rough Web;
+    font-size: 24pt;
+}
+
+#labelPN
+{
+    top: 30px;
+}
+
+#textBoxPN
+{
+    top: 30px;
+}
+
+#labelFirstName
+{
+    top: 60px;
+}
+
+#textBoxFirstName
+{
+    top: 60px;
+}
+
+#labelLastName
+{
+    top: 90px;
+}
+
+#textBoxLastName
+{
+    top: 90px;
+}
+
+#labelDate
+{
+    top: 120px;
+}
+
+#datePicker
+{
+    top: 120px;
+}
+
+#labelGender
+{
+    top: 150px;
+}
+
+#radioButtonMale
+{
+    position: absolute;
+    top: 155px;
+}
+
+#labelRBM
+{
+    position: absolute;
+    top: 155px;
+    left: 280px;
+}
+
+#radioButtonFemale
+{
+    position: absolute;
+    top: 155px;
+    left: 60px;
+}
+
+#labelRBF
+{
+    position: absolute;
+    top: 155px;
+    left: 340px;
+}
+
+#labelCountry
+{
+    top: 180px;
+}
+
+#textBoxCountry
+{
+    top: 180px;
+}
+
+#labelFashionHouse
+{
+    top: 210px;
+}
+
+#textBoxFashionHouse
+{
+    top: 210px;
+}
+
+#labelFashionShows
+{
+    top: 240px;
+}
+
+#boxShows
+{
+    top: 240px;
+    background: rgba(255,255,255,0.5);
+}
+
+#buttonOK
+{
+    position: absolute;
+    left: 140px;
+    top: 730px;
+}
+
+#buttonCancel
+{
+    position: absolute;
+    left: 360px;
+    top: 730px;
+}
+
+#labelError
+{
+    position:absolute;
+    left: 620px;
+    top: 100px;
+}

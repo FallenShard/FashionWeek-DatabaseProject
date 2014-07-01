@@ -1,0 +1,184 @@
+﻿.SmallFormDiv
+{
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    overflow: auto;
+    width: 500px;
+    height: 600px;
+    background: rgba(0, 0, 0, 0.1);
+    border-width: 2px;	
+    border-style: solid;
+    border-color: orange;
+}
+
+.RightSide
+{
+    position: absolute;
+    left: 260px;
+    color: white;
+}
+
+.LeftSide
+{
+    position: absolute;
+    right: 260px;
+}
+
+#labelPageTitle
+{
+    position: absolute;
+    top: 50px;
+    left: 120px;
+    color: black;
+    font-family: Gist Rough Web;
+    font-size: 24pt;
+}
+
+
+#labelPN
+{
+    top: 30px;
+}
+#labelPNVal
+{
+    top: 30px;
+}
+
+#labelFirstName
+{
+    top: 60px;
+}
+#labelFirstNameVal
+{
+    top: 60px;
+}
+
+#labelLastName
+{
+    top: 90px;
+}
+#labelLastNameVal
+{
+    top: 90px;
+}
+
+#labelAgency
+{
+    top: 120px;
+}
+#labelAgencyVal
+{
+    top: 120px;
+}
+
+#labelDate
+{
+    top: 150px;
+}
+#labelDateVal
+{
+    top: 150px;
+}
+
+#labelGender
+{
+    top: 180px;
+}
+#labelGenderVal
+{
+    top: 180px;
+}
+
+#labelEyes
+{
+    top: 210px;
+}
+#labelEyesVal
+{
+    top: 210px;
+}
+
+#labelHair
+{
+    top: 240px;
+}
+#labelHairVal
+{
+    top: 240px;
+}
+
+#labelWeight
+{
+    top: 270px;
+}
+#labelWeightVal
+{
+    top: 270px;
+}
+
+#labelHeight
+{
+    top: 300px;
+}
+#labelHeightVal
+{
+    top: 300px;
+}
+
+#labelCSize
+{
+    top: 330px;
+}
+#labelCSizeVal
+{
+    top: 330px;
+}
+
+#labelSG
+{
+    top: 360px;
+}
+#labelSGVal
+{
+    top: 360px;
+}
+
+#labelOccupation
+{
+    top: 390px;
+}
+#labelOccupationVal
+{
+    top: 390px;
+}
+
+#labelMagazines
+{
+
+    top: 420px;
+}
+
+#boxMagazines
+{
+    color: white;
+    top: 450px;
+}
+
+#labelFashionShows
+{
+    color: black;
+    top: 420px;
+}
+
+#boxShows
+{
+    top: 450px;
+}
+
+#buttonBack
+{
+    position: absolute;
+    left: 360px;
+    top: 730px;
+}

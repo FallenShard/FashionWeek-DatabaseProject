@@ -1,0 +1,75 @@
+﻿
+#labelTitle
+{
+    position: absolute;
+    left: 238px;
+    top: 110px;
+    font-family: Gist Rough Web;
+    font-size: 72pt;
+}
+
+#labelSubTitle
+{
+    position: absolute;
+    left: 350px;
+    top: 238px;
+    font-family: Coco Web;
+    font-size: 32pt;
+}
+
+#shade
+{
+    position: absolute;
+    width: 60%;
+    left: 85px;
+    top: 230px;
+    height: 325px;
+    background: -webkit-linear-gradient(90deg, rgba(0,0,0,0.3), transparent); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(90deg, rgba(0,0,0,0.3), transparent); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(90deg, rgba(0,0,0,0.3), transparent); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(90deg, rgba(0,0,0,0.3), transparent);
+    z-index: -1;
+}
+
+#buttonOverview
+{
+    position: absolute;
+    left: 100px;
+    top: 245px;
+}
+
+#buttonShows
+{
+    position: absolute;
+    left: 100px;
+    top: 305px;
+}
+
+#buttonDesigners
+{
+    position: absolute;
+    left: 100px;
+    top: 365px;
+}
+
+#buttonModels
+{
+    position: absolute;
+    left: 100px;
+    top: 425px;
+}
+
+#buttonAgencies
+{
+    position: absolute;
+    left: 100px;
+    top: 485px;
+}
+
+#devLogo
+{
+    position: absolute;
+    left: 50%;
+    bottom: 30px;
+    margin-left: -100px;
+}

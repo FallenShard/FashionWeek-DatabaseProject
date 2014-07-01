@@ -1,0 +1,47 @@
+﻿#labelDesc
+{
+    position: absolute;
+    color: white;
+    top: 50px;
+}
+
+#labelTable
+{
+    position: absolute;
+    left: 200px;
+    color: black;
+    font-family: Gist Rough Web;
+    font-size: 24pt;
+}
+
+#listBoxTables
+{
+    position: absolute;
+
+    background: rgba(255,255,255,0.5);
+    top: 70px;
+    width: 180px; 
+    height: 260px;
+    overflow-y: auto;
+}
+
+.TableWrapper
+{
+    position: absolute;
+    top: 70px;
+    left: 200px;
+}
+.TableScroll
+{
+    max-height: 600px;
+    max-width: 1000px;
+    overflow: auto;
+}
+
+#buttonBack
+{
+    position: absolute;
+    right: 100px;
+    bottom: 100px;
+}
+

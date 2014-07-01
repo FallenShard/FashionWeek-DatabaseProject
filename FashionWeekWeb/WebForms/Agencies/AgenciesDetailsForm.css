@@ -1,0 +1,109 @@
+﻿.SmallFormDiv
+{
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    overflow: auto;
+    width: 500px;
+    height: 600px;
+    background: rgba(0, 0, 0, 0.1);
+    border-width: 2px;	
+    border-style: solid;
+    border-color: orange;
+}
+
+.RightSide
+{
+    position: absolute;
+    left: 260px;
+    color: white;
+}
+
+.LeftSide
+{
+    position: absolute;
+    right: 260px;
+}
+
+#labelPageTitle
+{
+    position: absolute;
+    top: 50px;
+    left: 120px;
+    color: black;
+    font-family: Gist Rough Web;
+    font-size: 24pt;
+}
+
+#labelRegNum
+{
+    top: 30px;
+}
+#labelRegNumVal
+{
+    top: 30px;
+}
+
+#labelName
+{
+    top: 60px;
+}
+#labelNameVal
+{
+    top: 60px;
+}
+
+#labelDate
+{
+    top: 90px;
+}
+#labelDateVal
+{
+    top: 90px;
+}
+
+#labelHQ
+{
+    top: 120px;
+}
+#labelHQVal
+{
+    top: 120px;
+}
+
+#labelInt
+{
+    top: 150px;
+}
+#labelIntVal
+{
+    top: 150px;
+}
+
+#labelModels
+{
+    color: black;
+    top: 180px;
+}
+#boxModels
+{
+    top: 210px;
+}
+
+#labelCountries
+{
+    top: 180px;
+    right: 300px;
+}
+#boxCountries
+{
+    color: white;
+    top: 210px;
+}
+
+#buttonBack
+{
+    position: absolute;
+    left: 360px;
+    top: 730px;
+}

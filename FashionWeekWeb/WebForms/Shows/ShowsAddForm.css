@@ -1,0 +1,108 @@
+﻿.SmallFormDiv
+{
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    overflow: auto;
+    width: 500px;
+    height: 600px;
+    background: rgba(0, 0, 0, 0.1);
+    border-width: 5px;	
+    border-style: ridge;
+}
+
+.RightSide
+{
+    position: absolute;
+    left: 260px;
+}
+
+.LeftSide
+{
+    position: absolute;
+    right: 260px;
+}
+
+#labelPageTitle
+{
+    position: absolute;
+    top: 50px;
+    left: 120px;
+    color: black;
+    font-family: Gist Rough Web;
+    font-size: 24pt;
+}
+
+#labelTitle
+{
+    top: 30px;
+}
+
+#textBoxTitle
+{
+    top: 30px;
+}
+
+#labelDateTime
+{
+    top: 60px;
+}
+
+#datePicker
+{
+    top: 60px;
+}
+
+#labelCity
+{
+    top: 90px;
+}
+
+#textBoxCity
+{
+    top: 90px;
+}
+
+#labelDesigners
+{
+    left: 100px;
+    top: 120px;
+}
+
+#boxDesigners
+{
+    top: 150px;
+    background: rgba(255,255,255,0.5);
+}
+
+#labelModels
+{
+    top: 120px;
+}
+
+#boxModels
+{
+    top: 150px;
+    background: rgba(255,255,255,0.5);
+}
+
+#buttonOK
+{
+    position: absolute;
+    left: 140px;
+    top: 730px;
+}
+
+#buttonCancel
+{
+    position: absolute;
+    left: 360px;
+    top: 730px;
+}
+
+#labelError
+{
+    position:absolute;
+    left: 620px;
+    top: 100px;
+}
